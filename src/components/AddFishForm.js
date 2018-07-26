@@ -16,6 +16,7 @@ class AddFishForm extends React.Component {
 			descRef: this.descRef.value.value,
 			imageRef: this.imageRef.value.value
 		}
+		// here im using this.props because this data does not live in this component
 		this.props.addFish(fish);
 
 		// reset the form
